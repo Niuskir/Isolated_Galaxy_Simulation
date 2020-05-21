@@ -20,6 +20,8 @@ The blend file includes a python script which needs to be manually run:
 
 The script only needs to be run once to setup the scene above. As the Camara is animated you can then start the "Render Animation" which will create the image sequence used to create the Youtube video below.
 
-As the script uses a few Python packages which are not part of Blender i installed Anaconda on my Windows 10 PC and appand a link (sys.path) to the   
+As the script uses a few Python packages which are not part of Blender i installed Anaconda on my Windows 10 PC and usure a sys.path to the Ananconda site-packages folder is added if the yt package is not found(see line 12 in script in blend file):  sys.path.append('C:\ProgramData\Anaconda3\Lib\site-packages')   
 
+Got the idea to do this from Jill Naiman's Astroblend: http://www.astroblend.com/
 
+Youtube video with galaxy simulation: https://youtu.be/6GgwPlFe0fc
